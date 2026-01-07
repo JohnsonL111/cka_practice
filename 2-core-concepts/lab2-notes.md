@@ -18,7 +18,7 @@ kubectl run nginx-pod --image=nginx
 kubectl run nginx-pod --image=nginx --restart=Never
 
 # pulls up the pod spec
-kubectl desribe pod <pod-name>
+kubectl describe pod <pod-name>
 
 # list node that each pod is on
 kubectl get pods -o wide
